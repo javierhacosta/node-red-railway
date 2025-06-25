@@ -1,0 +1,10 @@
+{
+"name": "node-red-app",
+"version": "1.0.0",
+"description": "Node-RED on Render with custom nodes",
+"dependencies":{
+"node-red-dashboard": "*",
+"node-red-node-mysql": "*",
+"node-red-contrib-ui-table": "*"
+}
+}
