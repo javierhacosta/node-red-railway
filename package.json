@@ -1,10 +1,20 @@
 {
-"name": "node-red-app",
-"version": "1.0.0",
-"description": "Node-RED on Render with custom nodes",
+"name":"node-red-railway",
+"version":"1.0.0",
+"description":"Node-RED personalizado con nodos para dashboard y MySQL",
+"main": "index.js",
+"scripts":{
+"start":"node-red"
+},
+
 "dependencies":{
-"node-red-dashboard": "*",
-"node-red-node-mysql": "*",
-"node-red-contrib-ui-table": "*"
-}
+"node-red-dashboard":"^3.5.0",
+"node-red-node-mysql":"^0.2.0",
+"node-red-contrib-ui-table":"^0.3.11"
+},
+
+"keywords":[],
+"author":"",
+
+"license":"ISC"}
 }
